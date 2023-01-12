@@ -15,4 +15,9 @@
 <img width="709" alt="Screen Shot 2023-01-12 at 3 28 37 PM" src="https://user-images.githubusercontent.com/122575008/212202820-dc96ccb5-f3ca-405f-a099-d6d3240b8d5c.png">
 
 ## Try out Some Interesting Commands
-
+* After you have successfully logged in, you will be able to type some commands.
+* You can always type in some commands like pwd, cd, ls, cp, etc, and see what will happen.
+* Some command functions:
+1. pwd will display your current directory.
+2. cd will change your current directory to given path.
+3. ls will display all the files and folders in the given path.

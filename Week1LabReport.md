@@ -21,3 +21,5 @@
 1. pwd will display your current directory.
 2. cd will change your current directory to given path.
 3. ls will display all the files and folders in the given path.
+
+<img width="384" alt="Screen Shot 2023-01-12 at 3 44 39 PM" src="https://user-images.githubusercontent.com/122575008/212204673-923d07c4-4aa3-4202-be5f-d44162d39269.png">

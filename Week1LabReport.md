@@ -18,8 +18,11 @@
 * After you have successfully logged in, you will be able to type some commands.
 * You can always type in some commands like pwd, cd, ls, cp, etc, and see what will happen.
 * Some command functions:
-1. pwd will display your current directory.
-2. cd will change your current directory to the given path.
-3. ls will display all the files and folders in the given path.
+1. `pwd` will display your current directory.
+2. `cd` will change your current directory to the given path.
+3. `ls` will display all the files and folders in the given path.
 
 <img width="1101" alt="Screen Shot 2023-01-12 at 3 48 46 PM" src="https://user-images.githubusercontent.com/122575008/212205058-2fe2ed5d-7048-461f-b277-5a836ee40176.png">
+
+## Conclusion
+Overall, in today's lab, I have gone through how to set up my terminal connection remotely, and I have also tried out commands to see how they will work out. Addtionally, I created a new GitHub account and learned introductory knowledge for making websites.

@@ -30,6 +30,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 2. `cd` will change your current directory to the given path.
 3. `ls` will display all the files and folders in the given path.
 4. `mkdir` will make new directory.
+5. `cp` will create a copy of the contents of a file or directory.
 
 <img width="772" alt="Screen Shot 2023-01-24 at 9 32 11 PM" src="https://user-images.githubusercontent.com/122575008/214487662-9e92888e-140d-4844-8233-3dc5f49ab169.png">
 

@@ -1,6 +1,9 @@
 # Week 1 Lab Report
 ## Setting up Your CS15L Account
 * First, you should go to this [link](https://sdacs.ucsd.edu/~icc/index.php) and set up your account for the course, and you will see a page like this:
+
+<img width="1347" alt="Screen Shot 2023-01-24 at 10 15 46 PM" src="https://user-images.githubusercontent.com/122575008/214493796-fd813303-ec4c-4819-97fe-7014c99e4c24.png">
+
 * Use this [tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to help you out setting up your account.
 
 ## How to Install VSCode

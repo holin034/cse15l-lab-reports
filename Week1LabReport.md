@@ -1,6 +1,6 @@
 # Week 1 Lab Report
 ## How to Install VSCode
-* Due to I have already installed VSCode in fall quarter for CSE11, I no longer need to install it again.
+* Since I have already installed VSCode in fall quarter for CSE11, I no longer need to install it again.
 * However, if you don't have VSCode downloaded, first, you need to go to this [link](https://code.visualstudio.com/).
 * Then, when you open the link, follow the directions to download your VSCode on your computer.
 * After you have successfully downloaded your VSCode, the home page should look like this:

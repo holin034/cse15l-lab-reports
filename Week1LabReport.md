@@ -9,8 +9,11 @@
 
 ## How to Access Remote Connecting
 1. First, you should open a new terminal by using the terminal option in menu bar and click on open a new terminal.
-2. Next, you should type in `ssh cs15lwi23(your account name)@ieng6.ucsd.edu`.
-3. Then, you will be asked a question and will need to type "yes" to answer that question. (see below)
+2. Next, you should type in 
+```
+ssh cs15lwi23(your account name)@ieng6.ucsd.edu
+```
+4. Then, you will be asked a question and will need to type "yes" to answer that question. (see below)
 ```
 ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.

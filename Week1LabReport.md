@@ -11,8 +11,10 @@
 1. First, you should open a new terminal by using the terminal option in menu bar and click on open a new terminal.
 2. Next, you should type in `ssh cs15lwi23(your account name)@ieng6.ucsd.edu`.
 3. Then, you will be asked a question and will need to type "yes" to answer that question.
-4. After that, you must type in your newly created password.(Type your password carefully since you won't be able to see what you've typed)
-5. Lastly, congrats, your terminal is connected to a computer in the lab room!
+<img width="600" alt="Screen Shot 2023-01-24 at 9 12 07 PM" src="https://user-images.githubusercontent.com/122575008/214485152-25dad16e-380e-4f22-8227-8dbcc609bead.png">
+4. The picture above where "***" locates is where you type "yes".
+5. After that, you must type in your newly created password.(Type your password carefully since you won't be able to see what you've typed)
+6. Lastly, congrats, your terminal is connected to a computer in the lab room!
 
 <img width="709" alt="Screen Shot 2023-01-12 at 3 28 37 PM" src="https://user-images.githubusercontent.com/122575008/212202820-dc96ccb5-f3ca-405f-a099-d6d3240b8d5c.png">
 

@@ -9,7 +9,8 @@
 
 ## How to Access Remote Connecting
 1. First, you should open a new terminal by using the terminal option in menu bar and click on open a new terminal.
-2. Next, you should type in 
+<img width="527" alt="Screen Shot 2023-01-24 at 10 05 54 PM" src="https://user-images.githubusercontent.com/122575008/214492411-1c66a938-a8d5-4400-982d-57c2803553c0.png">
+3. Next, you should type in this command in your newly created terminal:
 ```
 ssh cs15lwi23(your account name)@ieng6.ucsd.edu
 ```

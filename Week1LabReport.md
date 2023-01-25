@@ -49,5 +49,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 <img width="772" alt="Screen Shot 2023-01-24 at 9 32 11 PM" src="https://user-images.githubusercontent.com/122575008/214487662-9e92888e-140d-4844-8233-3dc5f49ab169.png">
 
+In above image, I have tried out `pwd` command which displays my current directory. Then, I changed my directory using `cd` command to perl5 directory, and displays that directory using `pwd` command again. I also us `ls` command to show all the files and folders.
+
 ## Conclusion
 Overall, in today's lab, I have gone through how to set up my terminal connection remotely, and I have also tried out commands to see how they will work out. Addtionally, I created a new GitHub account and learned introductory knowledge for making websites.

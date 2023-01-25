@@ -5,6 +5,7 @@
 <img width="1347" alt="Screen Shot 2023-01-24 at 10 15 46 PM" src="https://user-images.githubusercontent.com/122575008/214493796-fd813303-ec4c-4819-97fe-7014c99e4c24.png">
 
 * Use this [tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to help you out setting up your account.
+* Just a reminder, to create your personal password, you must have at least a capital letter, a lowercase letter, a number, and a special character.
 
 ## How to Install VSCode
 * Since I have already installed VSCode in the fall quarter for CSE11, I no longer need to install it again.

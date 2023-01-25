@@ -1,5 +1,7 @@
 # Week 1 Lab Report
 ## Setting up Your CS15L Account
+* First, you should go to this [link](https://sdacs.ucsd.edu/~icc/index.php) and set up your account for the course, and you will see a page like this:
+* Use this [tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to help you out setting up your account.
 
 ## How to Install VSCode
 * Since I have already installed VSCode in the fall quarter for CSE11, I no longer need to install it again.

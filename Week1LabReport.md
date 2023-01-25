@@ -29,8 +29,9 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 1. `pwd` will display your current directory.
 2. `cd` will change your current directory to the given path.
 3. `ls` will display all the files and folders in the given path.
+4. `mkdir` will make new directory.
 
-<img width="1101" alt="Screen Shot 2023-01-12 at 3 48 46 PM" src="https://user-images.githubusercontent.com/122575008/212205058-2fe2ed5d-7048-461f-b277-5a836ee40176.png">
+<img width="772" alt="Screen Shot 2023-01-24 at 9 32 11 PM" src="https://user-images.githubusercontent.com/122575008/214487662-9e92888e-140d-4844-8233-3dc5f49ab169.png">
 
 ## Conclusion
 Overall, in today's lab, I have gone through how to set up my terminal connection remotely, and I have also tried out commands to see how they will work out. Addtionally, I created a new GitHub account and learned introductory knowledge for making websites.

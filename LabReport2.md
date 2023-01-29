@@ -91,3 +91,7 @@ for (int i = 0; i < arr.length/2; i++) {
       arr[arr.length - i - 1] = temp;
     }
 ```
+- Overall, before the debugging, the code is incorrect because it is taking the changed element in an array and copying again which causes a repeat, instead of making it reversed. Therefore, after addressing the issue, I divide the array length by two, and the first half elements in the array will be assigned to the last half elements, and the last half elements will be assigned to the first half element, which assembles the entire array to become reversed. This eventually fixes the issue by making the array not repeating again. 
+
+## III. Conclusion
+ 

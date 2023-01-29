@@ -63,14 +63,14 @@ class StringServer {
 - This is a failure inducing input for the buggy program:
 ```
 int[] input2 = {1, 2, 3, 4, 5};
-    ArrayExamples.reverseInPlace(input2);
-    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, input2);
+ArrayExamples.reverseInPlace(input2);
+assertArrayEquals(new int[]{5, 4, 3, 2, 1}, input2);
 ```
 - This is an input that doesn't induce a failure:
 ```
 int[] input3 = {0, 0, 0, 0};
-    ArrayExamples.reverseInPlace(input3);
-    assertArrayEquals(new int[]{0, 0, 0, 0}, input3);
+ArrayExamples.reverseInPlace(input3);
+assertArrayEquals(new int[]{0, 0, 0, 0}, input3);
 ```
 - The symptom: 
 
@@ -80,16 +80,16 @@ int[] input3 = {0, 0, 0, 0};
 - Before the debug:
 ```
 for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
+  arr[i] = arr[arr.length - i - 1];
+}
 ```
 - After the debug:
 ```
 for (int i = 0; i < arr.length/2; i++) {
-      int temp = arr[i];
-      arr[i] = arr[arr.length - 1 - i];
-      arr[arr.length - i - 1] = temp;
-    }
+  int temp = arr[i];
+  arr[i] = arr[arr.length - 1 - i];
+  arr[arr.length - i - 1] = temp;
+}
 ```
 - Overall, before the debugging, the code is incorrect because it is taking the changed element in an array and copying again which causes a repeat, instead of making it reversed. Therefore, after addressing the issue, I divide the array length by two, and the first half elements in the array will be assigned to the last half elements, and the last half elements will be assigned to the first half element, which assembles the entire array to become reversed. This eventually fixes the issue by making the array not repeating again. 
 

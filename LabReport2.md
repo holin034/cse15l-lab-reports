@@ -66,7 +66,7 @@ int[] input2 = {1, 2, 3, 4, 5};
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[]{5, 4, 3, 2, 1}, input2);
 ```
-- This is a input that doesn't induce a failure:
+- This is an input that doesn't induce a failure:
 ```
 int[] input3 = {0, 0, 0, 0};
     ArrayExamples.reverseInPlace(input3);

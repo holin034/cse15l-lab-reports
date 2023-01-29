@@ -10,11 +10,13 @@ class Handler implements URLHandler {
     ArrayList<String> list = new ArrayList<>();
 
     public String handleRequest(URI url) {
-        String str = "";
         String printOut = "";
         if (url.getPath().equals("/")) {
-            return str;
-        }
+            for (int i = 0; i < list.size(); i++) {
+                printOut += list.get(i) + "\n";
+            }
+            return printOut;
+        } 
         else {
             if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
@@ -44,4 +46,7 @@ class StringServer {
     }
 }
 ```
+- Here are two examples of output of my code
+<img width="438" alt="Screen Shot 2023-01-28 at 6 15 59 PM" src="https://user-images.githubusercontent.com/122575008/215300719-38409550-a061-4729-a7a9-43d11ce16a95.png">
+
 

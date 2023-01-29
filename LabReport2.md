@@ -1,6 +1,7 @@
 # Lab Report 2
 ## I. Creating a Web Server
 - Code of my StringServer: 
+
 ```
 import java.io.IOException;
 import java.net.URI;

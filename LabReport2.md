@@ -1,5 +1,5 @@
 # Lab Report 2
-## Creating a Web Server
+## I. Creating a Web Server
 - Code of my StringServer: 
 ```
 import java.io.IOException;
@@ -56,4 +56,20 @@ class StringServer {
 
     <img width="401" alt="Screen Shot 2023-01-28 at 10 45 44 PM" src="https://user-images.githubusercontent.com/122575008/215309889-d2c133f0-10d0-47e4-b400-6ea75ee8fed9.png">
 
-- In the above example, I continue to add more string elements that will display in my server, however, I have done something wrong. In this case, the `main` method in `StringServer` class is first called, and it calls the `Handle` class that has `handleRequest` method in it. In `handleRequest` method, the code splits `=` into two parameters: the first one is before the `=` sign and the second one is after. When code is checking, the first parameter must be an `s` character, and the second parameter will be string values that will be shown. However, in the circumstance displayed above, I missed an `s` before the `=` sign in the query, therefore, the result will be `404 Not Found!`. In this case, the value won't change because the incorrect query will always result as `404 Not Found!`. 
+- In the above example, I continue to add more string elements that will display in my server, however, I have done something wrong. In this case, the `main` method in `StringServer` class is first called, and it calls the `Handle` class that has `handleRequest` method in it. In `handleRequest` method, the code splits `=` into two parameters: the first one is before the `=` sign and the second one is after. When code is checking, the first parameter must be an `s` character, and the second parameter will be string values that will be shown. However, in the circumstance displayed above, I missed an `s` before the `=` sign in the query, therefore, the result will be `404 Not Found!`. In this case, the value won't change because the incorrect query will always result as `404 Not Found!` value.
+
+## II. Fixing a Bug
+- I chose to fix the bug in the method `reverseInPlace` in `ArrayExample` class.
+- This is a failure inducing input for the buggy program:
+```
+int[] input2 = {1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, input2);
+```
+- This is a input that doesn't induce a failure:
+```
+int[] input3 = {0, 0, 0, 0};
+    ArrayExamples.reverseInPlace(input3);
+    assertArrayEquals(new int[]{0, 0, 0, 0}, input3);
+```
+- The symptom: 

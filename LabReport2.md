@@ -74,7 +74,7 @@ int[] input3 = {0, 0, 0, 0};
 ```
 - The symptom: 
 
-    https://open.spotify.com/socialsession/wlBBDoPa6BgozDD5cczDvbteNZXCAwlcHVjSLvWylM0wNN16qB4S1CL5wp9xnRqSgHEjydTY4qzUYVghxphrAVkk2CN3iFLKiOy9bwwgvj7?si=uW8LWWiWSIG5VcjYa0cTrA
+    <img width="1087" alt="Screen Shot 2023-01-28 at 11 52 11 PM" src="https://user-images.githubusercontent.com/122575008/215312966-8d29fc3c-b829-464f-8d9c-51b54b5826d0.png">
 
 - The bug before and after the change:
 - Before the debug:

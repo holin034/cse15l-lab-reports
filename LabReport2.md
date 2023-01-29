@@ -73,3 +73,21 @@ int[] input3 = {0, 0, 0, 0};
     assertArrayEquals(new int[]{0, 0, 0, 0}, input3);
 ```
 - The symptom: 
+
+    https://open.spotify.com/socialsession/wlBBDoPa6BgozDD5cczDvbteNZXCAwlcHVjSLvWylM0wNN16qB4S1CL5wp9xnRqSgHEjydTY4qzUYVghxphrAVkk2CN3iFLKiOy9bwwgvj7?si=uW8LWWiWSIG5VcjYa0cTrA
+
+- The bug before and after the change:
+- Before the debug:
+```
+for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+```
+- After the debug:
+```
+for (int i = 0; i < arr.length/2; i++) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - 1 - i];
+      arr[arr.length - i - 1] = temp;
+    }
+```

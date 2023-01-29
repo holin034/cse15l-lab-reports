@@ -94,4 +94,5 @@ for (int i = 0; i < arr.length/2; i++) {
 - Overall, before the debugging, the code is incorrect because it is taking the changed element in an array and copying again which causes a repeat, instead of making it reversed. Therefore, after addressing the issue, I divide the array length by two, and the first half elements in the array will be assigned to the last half elements, and the last half elements will be assigned to the first half element, which assembles the entire array to become reversed. This eventually fixes the issue by making the array not repeating again. 
 
 ## III. Conclusion
- 
+- In week 2 lab, I learned how to access and run the server by understanding how to look at path and query. I also learned using the split() function to split the query in order to create parameters by approaching different parts of the query. Additionally, I can run the server through accessing a specific port and display the information on a webpage. Lastly, I can change the query structures to input different functions or requests that can modify the information on the webpage.
+- In week 3 lab, I learned how to use a tester class to test the programs to check if the outputs are corresponding to what we expect. I also understand how to find the bugs in the program through tester methods and fix them accordingly. 

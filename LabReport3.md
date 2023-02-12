@@ -165,7 +165,7 @@ Shopping Malls and Plazas
 
 ```
 - All the lines that contain the letter `e` are hidden, only lines without `e` are shown. 
-## `grep -c" Command:
+## `grep -c` Command:
 - The command counts all the occurrences of the pattern/text in the file. It is useful when the user tries to find out how many times the pattern occur in the text, and they can use the `grep -c` command to count the number. 
 
 ### Example 7:

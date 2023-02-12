@@ -1,6 +1,6 @@
 # Lab Report 3
 ## `grep -rl` Command:
-- The command `grep -rl` is used to search the files that contains the specific word in those files. It is useful because if I am trying to find a file that contains "Hi" value, I will use the `grep -rl` command to search for that file. 
+- The command `grep -rl` is used to search the files that contain the specific pattern/text in those files. It is useful because if the user is trying to find a file that contains a specific word, they can use the `grep -rl` command to search for that file.
 
 ### Example 1:
 - The input of command:
@@ -16,6 +16,7 @@ written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt
 written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
 written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
 ```
+- All the above files contain the word `Bahamas`.
 ### Example 2:
 - The input of the command:
 ```
@@ -25,9 +26,10 @@ written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
 ```
 written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
+- All the above files contain the word `Lucayans`.
 
 ## `grep -n` Command:
-- The command `grep -n` is used to search for the word in a specific file. It is useful when the user is trying to look for a specific word in that file. The words will be color coded in the output. 
+- The command `grep -n` is used to search for the word in a specific file. It is useful when the user is trying to look for a specific word in that file. The words will be color coded in the output.
 
 ### Example 3:
 - The input of the command:
@@ -66,7 +68,7 @@ reserved for a mainlander.
 ```
 
 ## `grep -v` command
-- The command `grep -v` only prints out the lines that do not contain the specific pattern/text. It is useful when the users intend to display the contents in the file but do not want a specific text to be shown, therefore, they can use the `grep -v` command hide those lines that contain the text. 
+- The command `grep -v` only prints out the lines that do not contain the specific pattern/text. It is useful when the users intend to display the contents in the file but do not want a specific text to be shown, therefore, they can use the `grep -v` command hide those lines that contain the words. 
 
 ### Example 5:
 - The input of the command:
@@ -140,6 +142,7 @@ reserved for a mainlander.
         this beautiful city with its contrasts and variety is an exhilarating
         experience.
 ```
+- You can notice that the above passage has no lines that contain `Hong Kong` in it.
 ### Example 6:
 - The input of the command:
 ```
@@ -159,6 +162,7 @@ Shopping Malls and Plazas
 
 
 ```
+- All the lines that contain the letter `e` are hidden, only lines without `e` are shown. 
 ## `grep -c" Command:
 - The command counts all the occurrences of the pattern/text in the file. It is useful when the user tries to find out how many times the pattern occur in the text, and they can use the `grep -c` command to count the number. 
 
@@ -172,6 +176,7 @@ Shopping Malls and Plazas
 ```
 66
 ```
+- `Beijing` appears 66 times in the passage `Beijing-WhereToGo.txt`.
 ### Example 8:
 - The input of the command:
 ```
@@ -183,3 +188,5 @@ Shopping Malls and Plazas
 ```
 20
 ```
+- `Hong Kong` appears 20 times in the passage `IntroHongKong.txt`.
+

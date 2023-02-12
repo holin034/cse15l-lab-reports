@@ -17,7 +17,8 @@ written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
 written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
 ```
 - All the above files contain the word `Bahamas`.
-- Sources: I found this command by using the `man grep` command in the terminal which gives out lots of examples of grep command. I also use **ChatGPT** to look up how the command is used. Additionally, I used the lecture note to find out some ideas as well. 
+- Sources: I found this command by using the `man grep` command in the terminal which gives out lots of examples of grep command. I also use **ChatGPT** to look up how the command is used. Additionally, I used the lecture note to find out some ideas as well.
+
 ### Example 2:
 - The input of the command:
 ```
@@ -55,6 +56,7 @@ Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba,
 ```
 - In the terminal, the word `Lucayans` is highlighted in red (although it is not shown here).
 - Sources: I found this command by using the `man grep` command in the terminal which gives out lots of examples of grep command. I also use **ChatGPT** to look up how the command is used. Additionally, I used the lecture note to find out some ideas as well.
+
 ### Example 4:
 - The input of the command:
 ```
@@ -159,16 +161,9 @@ reserved for a mainlander.
 ```
 - The output:
 ```
-
-
-
-
 What To Do
 Shopping
 Shopping Malls and Plazas
-
-
-
 ```
 - All the lines that contain the letter `e` are hidden, only lines without `e` are shown.
 - Sources: I found this command by using the `man grep` command in the terminal which gives out lots of examples of grep command. I also use **ChatGPT** to look up how the command is used. Additionally, I used the lecture note to find out some ideas as well. 
@@ -187,7 +182,8 @@ Shopping Malls and Plazas
 66
 ```
 - `Beijing` appears 66 times in the passage `Beijing-WhereToGo.txt`.
-- Sources: I found this command by using the `man grep` command in the terminal which gives out lots of examples of grep command. I also use **ChatGPT** to look up how the command is used. Additionally, I used the lecture note to find out some ideas as well. 
+- Sources: I found this command by using the `man grep` command in the terminal which gives out lots of examples of grep command. I also use **ChatGPT** to look up how the command is used. Additionally, I used the lecture note to find out some ideas as well.
+
 ### Example 8:
 - The input of the command:
 ```

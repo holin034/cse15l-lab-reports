@@ -51,6 +51,7 @@ en route to and from the Caribbean, Florida, Bermuda, and their home ports. On E
 South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in 
 Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 ```
+- In the terminal, the word `Lucayans` is highlighted in red (although it is not shown here).
 ### Example 4:
 - The input of the command:
 ```
@@ -66,6 +67,7 @@ impressively rugged and the spirited people a sheer delight. Life in isolated fi
 Citizens of the capital of St. John’s are “townees,” those on the outskirts “bay-men,” and the towns beyond are known as “outports.” “Canadian” is still 
 reserved for a mainlander.
 ```
+- In the terminal, the word `Bahamas` is highlighted in red (although it is not shown here).
 
 ## `grep -v` command
 - The command `grep -v` only prints out the lines that do not contain the specific pattern/text. It is useful when the users intend to display the contents in the file but do not want a specific text to be shown, therefore, they can use the `grep -v` command hide those lines that contain the words. 

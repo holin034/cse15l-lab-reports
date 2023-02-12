@@ -2,6 +2,7 @@
 ## `grep -rl` Command:
 - The command `grep -rl` is used to search the files that contains the specific word in those files. It is useful because if I am trying to find a file that contains "Hi" value, I will use the `grep -rl` command to search for that file. 
 
+### Example 1:
 - The input of command:
 ```
 [cs15lwi23aty@ieng6-203]:skill-demo1-data:233$ grep -rl "Bahamas"
@@ -15,6 +16,7 @@ written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt
 written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
 written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
 ```
+### Example 2:
 - The input of the command:
 ```
 [cs15lwi23aty@ieng6-203]:skill-demo1-data:234$ grep -rl "Lucayans"
@@ -27,6 +29,7 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 ## `grep -n` Command:
 - The command `grep -n` is used to search for the word in a specific file. It is useful when the user is trying to look for a specific word in that file. The words will be color coded in the output. 
 
+### Example 3:
 - The input of the command:
 ```
 [cs15lwi23aty@ieng6-203]:skill-demo1-data:246$ cd written_2/travel_guides/berlitz2                    
@@ -46,6 +49,7 @@ en route to and from the Caribbean, Florida, Bermuda, and their home ports. On E
 South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in 
 Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 ```
+### Example 4:
 - The input of the command:
 ```
 [cs15lwi23aty@ieng6-203]:skill-demo1-data:254$ cd written_2/travel_guides/berlitz2

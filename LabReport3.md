@@ -64,3 +64,98 @@ impressively rugged and the spirited people a sheer delight. Life in isolated fi
 Citizens of the capital of St. John’s are “townees,” those on the outskirts “bay-men,” and the towns beyond are known as “outports.” “Canadian” is still 
 reserved for a mainlander.
 ```
+
+## `grep -v` command
+- The command `grep -v` only prints out the lines that do not contain the specific pattern/text. It is useful when the users intend to display the contents in the file but do not want a specific text to be shown, therefore, they can use the `grep -v` command hide those lines that contain the text. 
+
+### Example 5:
+- The input of the command:
+```
+[cs15lwi23aty@ieng6-203]:skill-demo1-data:261$ cd written_2/travel_guides/berlitz1
+[cs15lwi23aty@ieng6-203]:berlitz1:262$ grep -v "Hong Kong" IntroHongKong.txt
+```
+- The output:
+```
+        Its People
+        Exciting, mysterious, glamorous — these words have described
+        crowded — it has one of the world’s greatest population densities. But
+        it is also efficient, with one of the best transportation systems
+        anywhere, and for such a crowded place, quiet — you don’t hear voices
+        raised in anger, motorists sitting on their horns, or loud boomboxes.
+        Shopping never ends — there’s always another inviting spot just down
+        helpful, English spoken everywhere, and food that lives up to its
+        reputation.
+        reverted to Chinese sovereignty as a Special Administrative Region of
+        enclave with its laws and rights intact, and China has promised that
+        on the West, and the city is unrivaled in its commercial know-how and
+        managerial expertise. Around the time of the transition there was much
+        speculation about how things would change. But in fact, once news of
+        returned to their usual topics of conversation: the economy and the
+        price of housing.
+        The impression of the visitor today will be that very little
+        has changed. Establishments are no longer called “Royal,” Queen
+        Elizabeth has vanished from the coinage, and the Union Jack has been
+        bauhinia flower. But in fact, there have been changes, many of them due
+        to economic progress, new construction, and other factors that
+        influence cities all over the world.
+        Others are more subtle. British social customs are still
+        evident in the kind of polite service you get in hotels and in the long
+        lines of people waiting for buses at rush hour. The British population
+        has decreased; today there are as many American and Australian ex-pats
+        as there are British.
+        With a population of nearly eight million and a total area
+        of just over 1,095 square km (423 square miles), housing is one of Hong
+        Kong’s perennial nightmares. To alleviate the problem, the government
+        has become the city’s major landlord with the construction of massive
+        apartment blocks that, though they have every modern facility, average
+        only 9 square m (100 square ft) in size. Whole cities have been created
+        in the New Territories, although the unimaginative architecture of
+        these towns has been criticized.
+        there are immigrants from all over China. The Chinese people have been
+        described as hardworking and pragmatic, attitudes that have contributed
+        with nothing in their pockets, set up a small sidewalk stall, worked
+        diligently until they had their own store, and then expanded it into a
+        modest chain.
+        Old customs are still followed: Fate and luck are taken very
+        seriously, and astrologers and fortune-tellers do a steady business.
+        Before a skyscraper can be built, a feng shui (see page 68)
+        investigation must take place to ensure that the site and the building
+        will promote health, harmony, and prosperity. You’ll also notice that
+        gambling is a passion, whether it be cards, mah-jong, the lottery, or
+        off-track betting system, and on weekends the ferries to Macau are
+        crowded with people on their way to the casinos.
+        enthralling water traffic — a mix of freighters, ferries, tugs, junks,
+        and yachts. Views of the city and the harbor are panoramic. From
+        hotels, they are especially exciting at night when the lights are
+        on.
+        The business and financial center and the signature soaring
+        by ferry and the MTR rail line, is the Kowloon peninsula with its
+        hotels, nightlife, and almost non-stop shopping. Beyond, in the New
+        Territories, are a mixture of high-rise suburban towns, ancient sites
+        and walled villages, country parks, and farms with ducks and fish
+        Cheung Chau, provide getaways. You can also take a ferry to Macau to
+        find an entirely different kind of city, a unique blend of Chinese and
+        Iberian culture.
+        It’s anyone’s guess what may happen in the future, but for
+        this beautiful city with its contrasts and variety is an exhilarating
+        experience.
+```
+### Example 6:
+- The input of the command:
+```
+[cs15lwi23aty@ieng6-203]:skill-demo1-data:268$ cd written_2/travel_guides/berlitz2
+[cs15lwi23aty@ieng6-203]:berlitz2:269$ grep -v "e" Beijing-WhatToDo.txt 
+```
+- The output:
+```
+
+
+
+
+What To Do
+Shopping
+Shopping Malls and Plazas
+
+
+
+```

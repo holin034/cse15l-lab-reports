@@ -175,7 +175,6 @@ Shopping Malls and Plazas
 
 ## `grep -c` Command:
 - The command counts all the occurrences of the pattern/text in the file. It is useful when the user tries to find out how many times the pattern occur in the text, and they can use the `grep -c` command to count the number.
-- I found this command by using the `man grep` command in the terminal which gives out lots of examples of grep command. I also use **ChatGPT** to look up how the command is used. Additionally, I used the lecture note to find out some ideas as well. 
 
 ### Example 7:
 - The input of the command:

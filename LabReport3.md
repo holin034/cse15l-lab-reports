@@ -159,3 +159,27 @@ Shopping Malls and Plazas
 
 
 ```
+## `grep -c" Command:
+- The command counts all the occurrences of the pattern/text in the file. It is useful when the user tries to find out how many times the pattern occur in the text, and they can use the `grep -c` command to count the number. 
+
+### Example 7:
+- The input of the command:
+```
+[cs15lwi23aty@ieng6-201]:skill-demo1-data:271$ cd written_2/travel_guides/berlitz2
+[cs15lwi23aty@ieng6-201]:berlitz2:273$ grep -c "Beijing" Beijing-WhereToGo.txt 
+```
+- The output:
+```
+66
+```
+### Example 8:
+- The input of the command:
+```
+[cs15lwi23aty@ieng6-201]:berlitz2:275$ cd ..
+[cs15lwi23aty@ieng6-201]:travel_guides:276$ cd berlitz1
+[cs15lwi23aty@ieng6-201]:berlitz1:277$ grep -c "Hong Kong" IntroHongKong.txt 
+```
+- The output:
+```
+20
+```

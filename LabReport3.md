@@ -25,7 +25,8 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
 
 ## `grep -n` Command:
-- The command `grep -n` is used to search for the word in a specific file. It is useful when the user is trying to look for a specific word in that file.
+- The command `grep -n` is used to search for the word in a specific file. It is useful when the user is trying to look for a specific word in that file. The words will be color coded in the output. 
+
 - The input of the command:
 ```
 [cs15lwi23aty@ieng6-203]:skill-demo1-data:246$ cd written_2/travel_guides/berlitz2                    
@@ -44,3 +45,18 @@ en route to and from the Caribbean, Florida, Bermuda, and their home ports. On E
 “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long journey back to Europe with their cargoes of 
 South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in 
 Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
+```
+- The input of the command:
+```
+[cs15lwi23aty@ieng6-203]:skill-demo1-data:254$ cd written_2/travel_guides/berlitz2
+[cs15lwi23aty@ieng6-203]:berlitz2:256$ grep -n "Bahamas" Canada-WhereToGo.txt
+```
+- The output:
+```
+343:Without detracting from the significance of Columbus’s landing on the Bahamas, Newfoundland can lay a just claim to being the true beginning of 
+Europe’s adventure in North America. Anyone seeking to understand Canada’s role in shaping North America should spare a few days for this bracing province 
+of hardy fisherfolk — first Canadian land to be “found” and last to join the Confederation (incorporating Labrador), in 1949. The land and seascapes are 
+impressively rugged and the spirited people a sheer delight. Life in isolated fishing communities has given the Newfies a keen sense of local identity. 
+Citizens of the capital of St. John’s are “townees,” those on the outskirts “bay-men,” and the towns beyond are known as “outports.” “Canadian” is still 
+reserved for a mainlander.
+```

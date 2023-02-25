@@ -7,10 +7,11 @@
 - I used the ```ssh cs15lwi23aty@ieng6.ucsd.edu``` command to login to my class server by typing ```ssh``` command and my account to login.
 
 ### 2. Clone your fork of the repository from your Github account:
-<img width="440" alt="Screen Shot 2023-02-25 at 2 34 20 PM" src="https://user-images.githubusercontent.com/122575008/221382657-b5151050-9560-413e-8631-909ec6e96fb6.png">
-<img width="624" alt="Screen Shot 2023-02-25 at 2 34 41 PM" src="https://user-images.githubusercontent.com/122575008/221382668-23983701-6e92-49f5-92b1-d14a28c9ef02.png">
+<img width="414" alt="Screen Shot 2023-02-25 at 3 22 42 PM" src="https://user-images.githubusercontent.com/122575008/221384073-980ebacf-a925-4ab7-8a5e-f61d98915474.png">
 
-- Keys pressed: ```git<space>clone<space>https://github.com/ucsd-cse15l-w23/lab7.git```
+<img width="725" alt="Screen Shot 2023-02-25 at 3 21 06 PM" src="https://user-images.githubusercontent.com/122575008/221384027-1f3aa209-3471-4499-bde3-f561dbcf3b5b.png">
+
+- Keys pressed: ```git<space>clone<space>git@github.com:holin034/lab7.git```
 - I first copied the url of the repository 
 
 <img width="1004" alt="Screen Shot 2023-02-25 at 2 38 35 PM" src="https://user-images.githubusercontent.com/122575008/221382794-ca86cc6c-dc26-436c-872d-59938a031a17.png">

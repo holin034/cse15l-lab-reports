@@ -1,14 +1,17 @@
 # Lab Report 4
 ## The Tasks from the Competition
 ### 1. Login to the ieng6 account:
-<img width="519" alt="Screen Shot 2023-02-25 at 2 31 33 PM" src="https://user-images.githubusercontent.com/122575008/221382535-c72efac5-807e-4241-8bc4-124de013306c.png">
+<img width="520" alt="Screen Shot 2023-02-25 at 2 31 33 PM" src="https://user-images.githubusercontent.com/122575008/221382535-c72efac5-807e-4241-8bc4-124de013306c.png">
 
 - Keys pressed: ```ssh<space>cs15lwi23aty@ieng6.ucsd.edu<enter>```
 - I used the ```ssh cs15lwi23aty@ieng6.ucsd.edu``` command to login to my class server by typing ```ssh``` command and my account to login.
 
+### 2. Clone your fork of the repository from your Github account:
 <img width="440" alt="Screen Shot 2023-02-25 at 2 34 20 PM" src="https://user-images.githubusercontent.com/122575008/221382657-b5151050-9560-413e-8631-909ec6e96fb6.png">
-
 <img width="624" alt="Screen Shot 2023-02-25 at 2 34 41 PM" src="https://user-images.githubusercontent.com/122575008/221382668-23983701-6e92-49f5-92b1-d14a28c9ef02.png">
+
+- Keys pressed: ```git<space>clone<space>https://github.com/ucsd-cse15l-w23/lab7.git```
+- I first copied the url of the repository 
 
 <img width="1004" alt="Screen Shot 2023-02-25 at 2 38 35 PM" src="https://user-images.githubusercontent.com/122575008/221382794-ca86cc6c-dc26-436c-872d-59938a031a17.png">
 

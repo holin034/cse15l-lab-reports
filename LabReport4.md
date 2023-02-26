@@ -7,17 +7,34 @@
 - I used the ```ssh cs15lwi23aty@ieng6.ucsd.edu``` command to login to my class server by typing ```ssh``` command and my account to login.
 
 ### 2. Clone your fork of the repository from your Github account:
-<img width="414" alt="Screen Shot 2023-02-25 at 3 22 42 PM" src="https://user-images.githubusercontent.com/122575008/221384073-980ebacf-a925-4ab7-8a5e-f61d98915474.png">
+<img width="310" alt="Screen Shot 2023-02-25 at 3 48 11 PM" src="https://user-images.githubusercontent.com/122575008/221384793-7685a485-a01a-406c-9fbd-b0db5cbe19f3.png">
+
+<img width="415" alt="Screen Shot 2023-02-25 at 3 22 42 PM" src="https://user-images.githubusercontent.com/122575008/221384073-980ebacf-a925-4ab7-8a5e-f61d98915474.png">
 
 <img width="725" alt="Screen Shot 2023-02-25 at 3 21 06 PM" src="https://user-images.githubusercontent.com/122575008/221384027-1f3aa209-3471-4499-bde3-f561dbcf3b5b.png">
 
 - Keys pressed: ```git<space>clone<space>git@github.com:holin034/lab7.git```
-- I first copied the url of the repository 
+- I first copied the url of the repository
 
-<img width="1004" alt="Screen Shot 2023-02-25 at 2 38 35 PM" src="https://user-images.githubusercontent.com/122575008/221382794-ca86cc6c-dc26-436c-872d-59938a031a17.png">
+### 3. Run the tests, demonstrating that they fail:
+<img width="978" alt="Screen Shot 2023-02-25 at 3 49 33 PM" src="https://user-images.githubusercontent.com/122575008/221384819-69e1f3de-f2eb-45c0-a0f3-e4ab16f7f509.png">
 
-<img width="500" alt="Screen Shot 2023-02-25 at 2 40 10 PM" src="https://user-images.githubusercontent.com/122575008/221382836-51a56a1f-731a-4fca-9b7e-a43773555413.png">
+### 4. Edit the code file to fix the failing test:
+<img width="424" alt="Screen Shot 2023-02-25 at 3 54 24 PM" src="https://user-images.githubusercontent.com/122575008/221384948-5e915f5f-7c37-4385-a52f-d3bb50f93403.png">
 
-<img width="500" alt="Screen Shot 2023-02-25 at 2 40 39 PM" src="https://user-images.githubusercontent.com/122575008/221382849-5cd70d8f-f5c2-4612-ba49-d41e080219d7.png">
+- Before
+<img width="365" alt="Screen Shot 2023-02-25 at 3 51 18 PM" src="https://user-images.githubusercontent.com/122575008/221384870-93a31ab8-6dcc-4fc5-9ad3-b2ca5f9635cf.png">
 
-<img width="985" alt="Screen Shot 2023-02-25 at 2 55 32 PM" src="https://user-images.githubusercontent.com/122575008/221383302-4367f71d-f97c-431f-bb70-c11a6f2c531c.png">
+- After
+<img width="379" alt="Screen Shot 2023-02-25 at 3 51 34 PM" src="https://user-images.githubusercontent.com/122575008/221384878-b0ba2fc6-ab7e-4caf-988b-605205d26711.png">
+
+<img width="453" alt="Screen Shot 2023-02-25 at 3 53 45 PM" src="https://user-images.githubusercontent.com/122575008/221384932-f925d6b6-47d8-418d-bff6-a2a33f4d58d2.png">
+
+### 5. Run the tests, demonstrating that they now succeed:
+<img width="984" alt="Screen Shot 2023-02-25 at 3 54 48 PM" src="https://user-images.githubusercontent.com/122575008/221384958-b233529a-7c6e-42f3-a7a9-e8b3c04c8309.png">
+
+### 6. Commit and push the resulting change to your Github account:
+<img width="728" alt="Screen Shot 2023-02-25 at 3 55 48 PM" src="https://user-images.githubusercontent.com/122575008/221384978-3e8e0ae9-508a-4982-8595-ee98ad8f0208.png">
+
+<img width="912" alt="Screen Shot 2023-02-25 at 3 56 18 PM" src="https://user-images.githubusercontent.com/122575008/221384988-d7a1729b-3d34-4512-aed4-fd00b71d5321.png">
+

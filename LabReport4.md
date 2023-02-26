@@ -45,7 +45,7 @@
 4. ```2```
 5. ```Ctrl-X```
 6. ```Y<enter>```
-- First, I used the ```nano ListExamples.java``` command to display the code in the file. Then, I scrolled down to the seventh line from the last because the mistake is on that line. After that, I deleted the ```index1``` on that line and changed it to the ```index2```. Lastly, I pressed ```Ctrl-X``` to ```save and exit``` and pressed ```Y``` to confirm to save the changes.
+- First, I used the ```nano ListExamples.java``` command to display the code in the file. Then, I scrolled down to the seventh line from the last because the mistake is on that line. After that, I pressed the right arrow key 12 times and deleted the ```index1``` on that line and changed it to the ```index2```. Lastly, I pressed ```Ctrl-X``` to ```save and exit``` and pressed ```Y``` to confirm to save the changes.
 
 ### 5. Run the tests, demonstrating that they now succeed:
 <img width="984" alt="Screen Shot 2023-02-25 at 3 54 48 PM" src="https://user-images.githubusercontent.com/122575008/221384958-b233529a-7c6e-42f3-a7a9-e8b3c04c8309.png">

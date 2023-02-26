@@ -53,7 +53,7 @@
 - Keys pressed:
 1. ```<up><up><up><enter>```
 2. ```<up><up><up><enter>```
-- The ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command was 3 up in the search history, so I used up arrow to access it. Similarly, the ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` command was 4 up in the history, so I accessed and ran it in the same way.
+- The ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command was 3 up in the search history, so I used up arrow to access it. Similarly, the ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` command was also 3 up in the history, so I accessed and ran it in the same way.
 
 ### 6. Commit and push the resulting change to your Github account:
 <img width="728" alt="Screen Shot 2023-02-25 at 3 55 48 PM" src="https://user-images.githubusercontent.com/122575008/221384978-3e8e0ae9-508a-4982-8595-ee98ad8f0208.png">

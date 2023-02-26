@@ -20,21 +20,25 @@
 <img width="978" alt="Screen Shot 2023-02-25 at 3 49 33 PM" src="https://user-images.githubusercontent.com/122575008/221384819-69e1f3de-f2eb-45c0-a0f3-e4ab16f7f509.png">
 
 - Keys pressed: 
-1. ```cd<space>lab7```
+1. ```cd<space>lab7<enter>```
 2. ```javac<space>-cp<space>.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar<space>*.java<enter>``` 
-3. ```java<space>-cp<space>.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar<space>org.junit.runner.JUnitCore<space>ListExamplesTests```
-- First, I used the ```cd``` command to change to ```lab7``` directory so that I can compile the files in it. Then, I used the ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command to compile the code of ```ListExamplesTest.java```. Lastly, I used the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java``` to run the code in that file. 
+3. ```java<space>-cp<space>.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar<space>org.junit.runner.JUnitCore<space>ListExamplesTests<enter>```
+- First, I used the ```cd``` command to change to ```lab7``` directory so that I can compile the files in it. Then, I used the ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command to compile all the codes in the files in lab7. Lastly, I used the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java``` to run the code in the ```ListExamplesTest.java``` file.
 
 ### 4. Edit the code file to fix the failing test:
 <img width="424" alt="Screen Shot 2023-02-25 at 3 54 24 PM" src="https://user-images.githubusercontent.com/122575008/221384948-5e915f5f-7c37-4385-a52f-d3bb50f93403.png">
 
-- Before
+- Before the error is fixed:
 <img width="365" alt="Screen Shot 2023-02-25 at 3 51 18 PM" src="https://user-images.githubusercontent.com/122575008/221384870-93a31ab8-6dcc-4fc5-9ad3-b2ca5f9635cf.png">
 
-- After
+- After the error is fixed:
 <img width="379" alt="Screen Shot 2023-02-25 at 3 51 34 PM" src="https://user-images.githubusercontent.com/122575008/221384878-b0ba2fc6-ab7e-4caf-988b-605205d26711.png">
 
 <img width="453" alt="Screen Shot 2023-02-25 at 3 53 45 PM" src="https://user-images.githubusercontent.com/122575008/221384932-f925d6b6-47d8-418d-bff6-a2a33f4d58d2.png">
+
+- Keys pressed:
+1. ```nano<space>ListExamples.java<enter>```
+2. ```<delete>index1```
 
 ### 5. Run the tests, demonstrating that they now succeed:
 <img width="984" alt="Screen Shot 2023-02-25 at 3 54 48 PM" src="https://user-images.githubusercontent.com/122575008/221384958-b233529a-7c6e-42f3-a7a9-e8b3c04c8309.png">

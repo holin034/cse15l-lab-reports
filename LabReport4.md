@@ -48,8 +48,18 @@
 ### 5. Run the tests, demonstrating that they now succeed:
 <img width="984" alt="Screen Shot 2023-02-25 at 3 54 48 PM" src="https://user-images.githubusercontent.com/122575008/221384958-b233529a-7c6e-42f3-a7a9-e8b3c04c8309.png">
 
+- Keys pressed:
+1. ```<up><up><up><enter>```
+2. ```<up><up><up><enter>```
+- The ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command was 3 up in the search history, so I used up arrow to access it. Similarly, the ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` command was 4 up in the history, so I accessed and ran it in the same way.
+
 ### 6. Commit and push the resulting change to your Github account:
 <img width="728" alt="Screen Shot 2023-02-25 at 3 55 48 PM" src="https://user-images.githubusercontent.com/122575008/221384978-3e8e0ae9-508a-4982-8595-ee98ad8f0208.png">
 
 <img width="912" alt="Screen Shot 2023-02-25 at 3 56 18 PM" src="https://user-images.githubusercontent.com/122575008/221384988-d7a1729b-3d34-4512-aed4-fd00b71d5321.png">
+
+- Keys Pressed:
+1. ```git<space>commit<space>ListExamples.java<space>-m<space>"Updated"```
+2. ```git<space>push```
+- I used the ```git commit <file name> -m <note>``` command to commit the resulting change to my Github account. Then, I used the ```git push``` command to push the changes that I have made in ```ListExamples.java``` file to my Github account. As you can see, on my Github account page, the ```ListExamples``` file shows ```Updated``` and the errors are fixed.
 

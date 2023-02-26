@@ -29,9 +29,11 @@
 <img width="50%" alt="Screen Shot 2023-02-25 at 3 54 24 PM" src="https://user-images.githubusercontent.com/122575008/221384948-5e915f5f-7c37-4385-a52f-d3bb50f93403.png">
 
 - Before the error is fixed:
+
 <img width="50%" alt="Screen Shot 2023-02-25 at 3 51 18 PM" src="https://user-images.githubusercontent.com/122575008/221384870-93a31ab8-6dcc-4fc5-9ad3-b2ca5f9635cf.png">
 
 - After the error is fixed:
+
 <img width="50%" alt="Screen Shot 2023-02-25 at 3 51 34 PM" src="https://user-images.githubusercontent.com/122575008/221384878-b0ba2fc6-ab7e-4caf-988b-605205d26711.png">
 
 <img width="50%" alt="Screen Shot 2023-02-25 at 3 53 45 PM" src="https://user-images.githubusercontent.com/122575008/221384932-f925d6b6-47d8-418d-bff6-a2a33f4d58d2.png">

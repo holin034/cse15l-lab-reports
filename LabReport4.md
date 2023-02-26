@@ -13,11 +13,17 @@
 
 <img width="725" alt="Screen Shot 2023-02-25 at 3 21 06 PM" src="https://user-images.githubusercontent.com/122575008/221384027-1f3aa209-3471-4499-bde3-f561dbcf3b5b.png">
 
-- Keys pressed: ```git<space>clone<space>git@github.com:holin034/lab7.git```
-- I first copied the url of the repository
+- Keys pressed: ```git<space>clone<space>git@github.com:holin034/lab7.git<enter>```
+- I first forked the repository to my own Github account. Then I copied the SSH url of the repository and used the ```git clone``` command to clone the fork of the repository to my Github account.
 
 ### 3. Run the tests, demonstrating that they fail:
 <img width="978" alt="Screen Shot 2023-02-25 at 3 49 33 PM" src="https://user-images.githubusercontent.com/122575008/221384819-69e1f3de-f2eb-45c0-a0f3-e4ab16f7f509.png">
+
+- Keys pressed: 
+1. ```cd<space>lab7```
+2. ```javac<space>-cp<space>.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar<space>*.java<enter>``` 
+3. ```java<space>-cp<space>.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar<space>org.junit.runner.JUnitCore<space>ListExamplesTests```
+- First, I used the ```cd``` command to change to ```lab7``` directory so that I can compile the files in it. Then, I used the ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command to compile the code of ```ListExamplesTest.java```. Lastly, I used the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java``` to run the code in that file. 
 
 ### 4. Edit the code file to fix the failing test:
 <img width="424" alt="Screen Shot 2023-02-25 at 3 54 24 PM" src="https://user-images.githubusercontent.com/122575008/221384948-5e915f5f-7c37-4385-a52f-d3bb50f93403.png">

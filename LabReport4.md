@@ -61,5 +61,5 @@
 - Keys Pressed:
 1. ```git<space>commit<space>ListExamples.java<space>-m<space>"Updated"```
 2. ```git<space>push```
-- I used the ```git commit <file name> -m <note>``` command to commit the resulting change to my Github account. Then, I used the ```git push``` command to push the changes that I have made in ```ListExamples.java``` file to my Github account. As you can see, on my Github account page, the ```ListExamples``` file shows ```Updated``` and the errors are fixed.
+- I used the ```git commit <file name> -m <note>``` command to commit the resulting change to my Github account. Then, I used the ```git push``` command to push the changes that I have made in ```ListExamples.java``` file to my Github account. As you can see, on my Github account page, the ```ListExamples.java``` file shows ```Updated``` and the errors are fixed.
 

@@ -46,7 +46,7 @@ grep -f transportations.txt movies.txt
 
 #### 6. ```grep -e [pattern] -e [pattern] [Filename].txt```
 - The ```-e``` option in grep is used to specify multiple search patterns or regular expressions in a single command. This option allows you to search for lines that match any of the specified patterns. 
-- For example, you have a file called ```food.txt``` that contains a list of food, one per line. You want to search for lines that contain either the word ```pizza``` or the word ```burger```. You can use the -e option to search for both patterns in a single command, like this:
+- For example, you have a file called ```food.txt``` that contains a list of food, one per line. You want to search for lines that contain either the word ```pizza``` or the word ```burger```. You can use the ```-e``` option to search for both patterns in a single command, like this:
 ```
 grep -e pizza -e burger food.txt
 ```

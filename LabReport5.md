@@ -32,7 +32,7 @@ grep "^a" Bahama-History.txt
 
 #### 4. ```grep -i "[pattern]" [Filename].txt```
 - Search for a pattern in a case-insensitive manner: By default, ```grep``` is case-sensitive, meaning that it will only match patterns that are exactly the same case as the one you specified. However, you can use the ```-i``` option to perform a case-insensitive search. 
-- For example, to search for the word "car" regardless of its case in a file called "transportations.txt", you can use the following command:
+- For example, to search for the word ```car``` regardless of its case in a file called ```transportations.txt```, you can use the following command:
 ```
 grep -i "car" transportations.txt
 ```
